@@ -5,7 +5,7 @@ function upData(){
 	fetch("dbtest.php", {
 		method: "POST",
 		headers : {"Content-Type" : "application/x-www-form-urlencoded"},
-		body : "val1=" + endcodeURIComponent(val1);
+		body : "val1=" + endcodeURIComponent(val1)
 	})
 	.then(response => response.text())
 	.then(data => { console.log(data); });
