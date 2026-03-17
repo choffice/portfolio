@@ -21,4 +21,4 @@ jobs:
           protocol: ftp
           port: 21
           local-dir: ./          # 배포할 로컬 디렉토리
-          server-dir: /public_html   # dothome 서버 경로
+          server-dir: /public_html/   # dothome 서버 경로
